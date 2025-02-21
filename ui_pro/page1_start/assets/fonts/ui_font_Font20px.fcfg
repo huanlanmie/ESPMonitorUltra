@@ -1,0 +1,16 @@
+{
+  "codename": "Font20px",
+  "ttf_path": "/assets/fonts/HarmonyOS_Sans_SC_Medium.ttf",
+  "bin_path": "/assets/fonts\\ui_font_Font20px.bin",
+  "c_path": "/assets/fonts\\ui_font_Font20px.c",
+  "cfg_path": "/assets/fonts\\ui_font_Font20px.fcfg",
+  "size": 20,
+  "bpp": 4,
+  "letters": 0,
+  "ranges": [
+    "0x20-0x7f"
+  ],
+  "symbols": "正在连接",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}

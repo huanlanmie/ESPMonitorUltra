@@ -1,0 +1,16 @@
+{
+  "codename": "Font22px",
+  "ttf_path": "\\assets\\fonts\\MaoKenZhuYuanTi-MaokenZhuyuanTi-2.ttf",
+  "bin_path": "\\assets\\fonts\\ui_font_Font22px.bin",
+  "c_path": "\\assets\\fonts\\ui_font_Font22px.c",
+  "cfg_path": "\\assets\\fonts\\ui_font_Font22px.fcfg",
+  "size": 22,
+  "bpp": 4,
+  "letters": 0,
+  "ranges": [
+    "0x20-0x7f"
+  ],
+  "symbols": "年月日",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}

@@ -1,0 +1,10 @@
+SET(SOURCES ui_page5_screen_main.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_img_images_bizhi_yejing1_png.c
+    ui_img_images_bizhi_yanhua1_png.c
+    fonts/ui_font_Font22px.c
+    fonts/ui_font_Font82px.c)
+
+add_library(ui ${SOURCES})

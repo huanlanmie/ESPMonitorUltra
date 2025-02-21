@@ -1,0 +1,16 @@
+{
+  "codename": "Font18px",
+  "ttf_path": "/assets/fonts/HarmonyOS_Sans_SC_Medium.ttf",
+  "bin_path": "/assets/fonts\\ui_font_Font18px.bin",
+  "c_path": "/assets/fonts\\ui_font_Font18px.c",
+  "cfg_path": "/assets/fonts\\ui_font_Font18px.fcfg",
+  "size": 18,
+  "bpp": 4,
+  "letters": 0,
+  "ranges": [
+    "0x20-0x7f"
+  ],
+  "symbols": "1234567890星期一二三四五六七天周日甲辰年\r乙亥月\r庚子龙十初室内:℃长沙最后更新感冒指数易发穿衣指数舒适钓鱼指数适合多云使用率福州暴雨预警|优差今明后天",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}

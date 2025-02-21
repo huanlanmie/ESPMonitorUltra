@@ -1,0 +1,16 @@
+{
+  "codename": "Font24px",
+  "ttf_path": "\\assets\\fonts\\MaoKenZhuYuanTi-MaokenZhuyuanTi-2.ttf",
+  "bin_path": "\\assets\\fonts\\ui_font_Font24px.bin",
+  "c_path": "\\assets\\fonts\\ui_font_Font24px.c",
+  "cfg_path": "\\assets\\fonts\\ui_font_Font24px.fcfg",
+  "size": 24,
+  "bpp": 4,
+  "letters": 0,
+  "ranges": [
+    "0x20-0x7f"
+  ],
+  "symbols": "温度主频风扇℃：网络速度功耗日期时间2023年4月27日东北风2级23℃",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}

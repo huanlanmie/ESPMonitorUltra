@@ -1,0 +1,16 @@
+{
+  "codename": "Font48px",
+  "ttf_path": "/assets/fonts/MaoKenZhuYuanTi-MaokenZhuyuanTi-2.ttf",
+  "bin_path": "/assets/fonts\\ui_font_Font48px.bin",
+  "c_path": "/assets/fonts\\ui_font_Font48px.c",
+  "cfg_path": "/assets/fonts\\ui_font_Font48px.fcfg",
+  "size": 48,
+  "bpp": 1,
+  "letters": 0,
+  "ranges": [
+    "0x20-0x7f"
+  ],
+  "symbols": "0123456789:显卡处理器内存",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}

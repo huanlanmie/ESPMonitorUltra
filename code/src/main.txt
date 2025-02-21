@@ -1,0 +1,51 @@
+#include <Arduino.h>
+#include <Arduino_GFX_Library.h>
+#include <lvgl.h>
+#include <demos/lv_demos.h>
+
+#include "../include/ui_h/ui.h"
+
+Arduino_DataBus *bus = new Arduino_ESP32LCD16(
+    16, 17, 18 /* WR */, 19 /* RD */,
+    0 /* D0 */, 1 /* D1 */, 2 /* D2 */, 3 /* D3 */, 4 /* D4 */, 5 /* D5 */, 6 /* D6 */, 7 /* D7 */,
+    8 /* D8 */, 9 /* D9 */, 10 /* D10 */, 11 /* D11 */, 12 /* D12 */, 13 /* D13 */, 14 /* D14 */, 15 /* D15 */);
+Arduino_GFX *gfx = new Arduino_NT35510(bus, 20 /* RST */, 3 /* rotation */);
+
+/* Change to your screen resolution */
+static uint32_t screenWidth;
+static uint32_t screenHeight;
+static lv_disp_draw_buf_t draw_buf;
+static lv_color_t *disp_draw_buf;
+static lv_disp_drv_t disp_drv;
+
+/* Display flushing */
+void my_disp_flush(lv_disp_drv_t *disp, const lv_area_t *area, lv_color_t *color_p)
+{
+  uint32_t w = (area->x2 - area->x1 + 1);
+  uint32_t h = (area->y2 - area->y1 + 1);
+
+#if (LV_COLOR_16_SWAP != 0)
+  gfx->draw16bitBeRGBBitmap(area->x1, area->y1, (uint16_t *)&color_p->full, w, h);
+#else
+  gfx->draw16bitRGBBitmap(area->x1, area->y1, (uint16_t *)&color_p->full, w, h);
+#endif
+
+  lv_disp_flush_ready(disp);
+}
+String Aida64Data_JSON;
+void setup(void)
+{
+  Serial.begin(115200);
+  delay(1000);
+  Serial.println("Setup complete");
+}
+void loop()
+{
+  if (Serial.available() > 0)
+  {
+    char c = Serial.read();
+    Serial.print("Received: ");
+    Serial.println(c);
+  }
+  delay(100);
+}

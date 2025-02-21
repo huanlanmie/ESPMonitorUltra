@@ -1,0 +1,16 @@
+{
+  "codename": "Font82px",
+  "ttf_path": "\\assets\\fonts\\MaoKenZhuYuanTi-MaokenZhuyuanTi-2.ttf",
+  "bin_path": "\\assets\\fonts\\ui_font_Font82px.bin",
+  "c_path": "\\assets\\fonts\\ui_font_Font82px.c",
+  "cfg_path": "\\assets\\fonts\\ui_font_Font82px.fcfg",
+  "size": 82,
+  "bpp": 4,
+  "letters": 0,
+  "ranges": [
+    "0x20-0x7f"
+  ],
+  "symbols": "",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}

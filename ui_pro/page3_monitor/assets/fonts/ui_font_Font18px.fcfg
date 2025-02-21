@@ -1,0 +1,16 @@
+{
+  "codename": "Font18px",
+  "ttf_path": "\\assets\\fonts\\HarmonyOS_Sans_SC_Medium.ttf",
+  "bin_path": "\\assets\\fonts\\ui_font_Font18px.bin",
+  "c_path": "\\assets\\fonts\\ui_font_Font18px.c",
+  "cfg_path": "\\assets\\fonts\\ui_font_Font18px.fcfg",
+  "size": 18,
+  "bpp": 4,
+  "letters": 0,
+  "ranges": [
+    "0x20-0x7f"
+  ],
+  "symbols": "使用率",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}
